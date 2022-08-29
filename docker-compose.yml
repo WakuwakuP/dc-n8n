@@ -3,6 +3,8 @@ version: '3.8'
 volumes:
   db_storage:
   n8n_storage:
+  certs:
+    external: true
 
 services:
   nginx:
